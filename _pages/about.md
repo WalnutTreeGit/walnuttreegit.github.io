@@ -1,35 +1,33 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>AIMS CDT Applicant (2026)</a>. MSc in CS for Networks (Highest Honors).
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false # set to true if you want a round photo
+  address: >
+    <p>Paris, France</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true  # Keeps your awards/papers visible
+selected_papers: true # Shows your ICML submissions from .bib
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm João Paulo, a DPhil applicant for the **Autonomous Intelligent Machines and Systems (AIMS) CDT** at the University of Oxford for the 2026 intake. I currently hold an MSc in **Computer Science for Networks** from **Institut Polytechnique de Paris**  and a BSc in **Electrical and Computer Engineering** from the **Polytechnic Institute of Porto**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My proposed research direction is **Adaptive Invariant Synthesis**, aiming to bridge the gap between high-level semantic reasoning and low-level control guarantees. I am driven by the paradigm of **Embodied Intelligence** and the emergence of Vision-Language-Action (VLA) models. Specifically, I aim to use Large Multimodal Models (LMMs) not just for planning, but as structured label generators that synthesize formal safety constraints from deployment experience. This direction is directly aligned with the work of the **Oxford Robotics Institute (ORI)** and **Oxford Control and Verification (OXCAV)** groups.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Most recently, I was a **Machine Learning Research Intern** at **Nokia Bell Labs** (Paris), where I proposed "Certainty-Guided Reasoning," a framework for dynamic thinking budgets in LLMs. This work was selected for the **Outstanding Innovation Award** at the Nokia Bell Labs Global Student Program (2025). Prior to this, I worked as a Robotics R&D Intern at **INESC TEC**, building LiDAR drivers and mapping tools for agricultural field robots.
+
+My ultimate goal is to secure a permanent position in an academic or industrial research lab, contributing to autonomous systems that can safely learn from their own failures.
+
+### Research Interests
+
+* **Robotics & Autonomy:** VLA models, Embodied Intelligence, Long-Term Autonomy, Semantic Failure Recovery.
+* **Formal Methods:** SMT-based Constraint Learning, Adaptive Safety Shields.
+* **Machine Learning:** Inference-time reasoning, Uncertainty quantification, Efficient LLMs.
+
+
 [Download my CV (PDF)](/assets/pdf/cv.pdf)
