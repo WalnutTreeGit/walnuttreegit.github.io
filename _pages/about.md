@@ -23,6 +23,8 @@ Most recently, I was a **Machine Learning Research Intern** at **Nokia Bell Labs
 
 My ultimate goal is to secure a permanent position in an academic or industrial research lab, contributing to autonomous systems that can safely learn from their own failures.
 
+[Download my CV (PDF)](/assets/pdf/cv.pdf)  
+
 ### Research Interests
 
 * **Robotics & Autonomy:** VLA models, Embodied Intelligence, Long-Term Autonomy, Semantic Failure Recovery.
@@ -30,4 +32,4 @@ My ultimate goal is to secure a permanent position in an academic or industrial 
 * **Machine Learning:** Inference-time reasoning, Uncertainty quantification, Efficient LLMs.
 
 
-[Download my CV (PDF)](/assets/pdf/cv.pdf)
+
