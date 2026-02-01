@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Facial Recognition
 description: A closed-set facial recognition pipeline using YOLOv8 and Transfer Learning.
-img: assets/img/face_rec.jpg # You need to upload a thumbnail image with this name!
+img: assets/img/face_rec.webp
 importance: 1
 category: work
 related_publications: false
