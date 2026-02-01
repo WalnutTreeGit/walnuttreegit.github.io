@@ -37,5 +37,5 @@ The project addresses the challenge of distinguishing specific individuals from 
 The full repository includes the source code for the data collection pipeline and inference scripts. It is designed to allow other researchers to train their own closed-set recognition systems on their own datasets.
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.liquid repository="walnuttreegit/YOUR-REPO-NAME" %}
+    {% include repository/repo.liquid repository="walnuttreegit/real-time-facial-recognition" %}
 </div>
