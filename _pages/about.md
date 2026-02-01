@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>AIMS CDT Applicant (2026)</a>. MSc in CS for Networks (Highest Honors).
-
+subtitle: ""
 profile:
   align: right
   image: prof_pic.jpg
