@@ -461,6 +461,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-real-time-facial-recognition",
+          title: 'Real-Time Facial Recognition',
+          description: "A closed-set facial recognition pipeline using YOLOv8 and Transfer Learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/facial_recognition/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
