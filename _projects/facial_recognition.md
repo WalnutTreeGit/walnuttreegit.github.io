@@ -24,18 +24,9 @@ The project addresses the challenge of distinguishing specific individuals from 
 2.  **Annotation:** Images are labeled using PascalVOC/YOLO formats.
 3.  **Training:** The model is fine-tuned over 800 epochs using Stochastic Gradient Descent (SGD).
 
-<div class="row">
-    <div class="col-sm- mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/yolo_architecture.jpg" title="YOLO Architecture" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The system leverages the YOLOv8 architecture for single-shot detection.
-</div>
+
 
 ### Code & Usage
 The full repository includes the source code for the data collection pipeline and inference scripts. It is designed to allow other researchers to train their own closed-set recognition systems on their own datasets.
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.liquid repository="walnuttreegit/real-time-facial-recognition" %}
-</div>
+[View Project on GitHub](https://github.com/walnuttreegit/real-time-facial-recognition)
