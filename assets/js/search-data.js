@@ -466,6 +466,11 @@ ninja.data = [{
           description: "A closed-set facial recognition pipeline using YOLOv8 and Transfer Learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/facial_recognition/";
+            },},{id: "projects-embedded-tetris-table",
+          title: 'Embedded Tetris Table',
+          description: "Real-time game logic on 8-bit hardware with 2KB RAM constraints.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tetris/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
