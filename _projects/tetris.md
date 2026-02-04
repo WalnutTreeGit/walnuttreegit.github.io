@@ -40,17 +40,6 @@ The primary engineering challenge was memory management. The ATmega328P offers o
 
 **Solution:** I implemented the collision grid using bitwise manipulation, effectively storing the game state in a fraction of the memory. The rendering pipeline was optimized to write directly to the LED output stream, minimizing the need for intermediate buffers.
 
-
-
-<div class="row">
-    <div class="col-sm- mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/tetris_wiring.webp" title="Wiring Diagram" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The custom circuit integrating the ATmega328P, HC-06 Bluetooth module, and Logic Level Shifters.
-</div>
-
 ### Project Details
 * **Hardware:** ATmega328P, WS2812B (300 LEDs), HC-06 Bluetooth
 * **Dimensions:** 80cm x 50cm
