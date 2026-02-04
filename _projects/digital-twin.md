@@ -2,7 +2,7 @@
 layout: page
 title: Middleware & Digital Twin for Collision Avoidance
 description: C++ “physical car” simulation + MQTT pub/sub to maintain server-side digital twins and issue collision-avoidance commands in real time.
-img: assets/img/projects/digital-twin.webp
+img: assets/img/digital-twin.webp
 importance: 5
 category: work
 ---
@@ -47,13 +47,13 @@ To avoid naive all-pairs scaling, the environment is partitioned into **sub-regi
 
 ## Results / demo images
 {% include figure.liquid
-  path="assets/img/projects/digital-twin/architecture.png"
+  path="assets/img/architecture.png"
   class="img-fluid rounded z-depth-1"
   caption="Architecture: cars publish/subscribe via an EMQX MQTT cluster; monitoring server maintains digital twins and sends avoidance commands."
 %}
 
 {% include figure.liquid
-  path="assets/img/projects/digital-twin/demo.png"
+  path="assets/img/digital-twin-demo.png"
   class="img-fluid rounded z-depth-1"
   caption="Demo snapshot: server-side digital twins updated in real time from car telemetry; commands issued back to cars when collision risk is detected."
 %}
