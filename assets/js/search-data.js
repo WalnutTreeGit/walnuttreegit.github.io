@@ -419,6 +419,11 @@ ninja.data = [{
           description: "A closed-set facial recognition pipeline using YOLOv8 and Transfer Learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/facial_recognition/";
+            },},{id: "projects-smt-lra-constraint-learning-from-labelled-examples",
+          title: 'SMT(LRA) Constraint Learning from Labelled Examples',
+          description: "Solver-backed learning of k-CNF formulas mixing Boolean literals and linear real arithmetic halfspaces (PySMT).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/smt/";
             },},{id: "projects-embedded-tetris-table",
           title: 'Embedded Tetris Table',
           description: "Real-time game logic on 8-bit hardware with 2KB RAM constraints.",
