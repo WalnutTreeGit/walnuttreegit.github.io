@@ -2,7 +2,7 @@
 layout: page
 title: UWB Radar Sensing — Movement Tracking & Breath Monitoring
 description: IR-UWB radar signal processing for motion tracking (MATLAB) and non-contact respiration monitoring (Python).
-img: assets/img/projects/uwb-radar.jpg
+img: assets/img/projects/uwb-radar.webp
 importance: 6
 category: Robotics / Signal Processing
 ---
