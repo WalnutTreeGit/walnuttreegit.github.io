@@ -419,8 +419,8 @@ ninja.data = [{
           description: "Real-time game logic on 8-bit hardware with 2KB RAM constraints.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tetris/";
-            },},{id: "projects-uwb-radar-sensing-movement-tracking-amp-breath-monitoring",
-          title: 'UWB Radar Sensing — Movement Tracking &amp;amp; Breath Monitoring',
+            },},{id: "projects-uwb-movement-tracking-amp-breath-monitoring",
+          title: 'UWB Movement Tracking &amp;amp; Breath Monitoring',
           description: "IR-UWB radar signal processing for motion tracking (MATLAB) and non-contact respiration monitoring (Python).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/uwb-radar-sensing/";
