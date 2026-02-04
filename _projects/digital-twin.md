@@ -4,7 +4,7 @@ title: Middleware & Digital Twin for Collision Avoidance
 description: C++ “physical car” simulation + MQTT pub/sub to maintain server-side digital twins and issue collision-avoidance commands in real time.
 img: assets/img/projects/digital-twin.webp
 importance: 5
-category: Systems / Middleware
+category: work
 ---
 
 ### Overview
