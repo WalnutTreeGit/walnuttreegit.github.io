@@ -2,7 +2,7 @@
 layout: page
 title: UWB Radar Sensing — Movement Tracking & Breath Monitoring
 description: IR-UWB radar signal processing for motion tracking (MATLAB) and non-contact respiration monitoring (Python).
-img: assets/img/projects/uwb-radar.webp
+img: assets/img/uwb-radar.webp
 importance: 6
 category: work
 ---
@@ -32,13 +32,13 @@ Implemented two IR-UWB radar processing pipelines:
 **Results.**
 
 {% include figure.liquid
-  path="assets/img/projects/uwb/tracking_before.png"
+  path="assets/img/tracking_before.png"
   class="img-fluid rounded z-depth-1"
   caption="Range–time visualization after stationary reflection reduction (frame differencing) and Hilbert-envelope extraction."
 %}
 
 {% include figure.liquid
-  path="assets/img/projects/uwb/tracking_after.png"
+  path="assets/img/tracking_after.png"
   class="img-fluid rounded z-depth-1"
   caption="Range–time visualization after per-frame outlier suppression (threshold = mean + 2.33·std) to increase motion contrast."
 %}
@@ -56,7 +56,7 @@ Implemented two IR-UWB radar processing pipelines:
 **Result.**
 
 {% include figure.liquid
-  path="assets/img/projects/uwb/breath_waveform_col333.png"
+  path="assets/img/breath_waveform_col333.png"
   class="img-fluid rounded z-depth-1"
   caption="Extracted respiration waveform from the variance-selected range bin (Hilbert-envelope + variance-based bin selection). Example shown: column 333."
 %}
