@@ -2,7 +2,7 @@
 layout: page
 title: Embedded Tetris Table
 description: Real-time game logic on 8-bit hardware with 2KB RAM constraints.
-img: assets/img/Typical_Tetris_Game.svg.png
+img: assets/img/tetris.png
 importance: 2
 category: work
 related_publications: false
