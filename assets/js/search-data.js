@@ -409,8 +409,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-middleware-amp-digital-twin-for-collision-avoidance",
-          title: 'Middleware &amp;amp; Digital Twin for Collision Avoidance',
+          section: "News",},{id: "projects-digital-twin-for-collision-avoidance",
+          title: 'Digital Twin for Collision Avoidance',
           description: "C++ “physical car” simulation + MQTT pub/sub to maintain server-side digital twins and issue collision-avoidance commands in real time.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/digital-twin/";
