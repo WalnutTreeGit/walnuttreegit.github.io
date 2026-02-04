@@ -10,7 +10,7 @@ related_publications: false
 
 This project is a full-stack embedded system designed to run the Tetris game logic on highly constrained hardware. Developed from scratch using **C** on an **ATmega328P**, the system drives a **300-pixel** array of addressable RGB LEDs (WS2812B) while handling asynchronous input from a custom Android application.
 
-The physical build consists of an **80cm x 50cm** table containing a primary **12x20 game matrix** and a secondary **5x4 status matrix** for score and "next piece" visualization.
+The physical build consists of an **80cm x 50cm** table containing a primary **12x20 game matrix** and a secondary **5x4 status matrix** for score and "next piece" visualization. Below is a video recorded during the prototyping phase.
 
 ### Video Demo
 <div class="row">
