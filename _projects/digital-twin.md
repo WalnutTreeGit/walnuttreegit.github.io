@@ -46,11 +46,14 @@ To avoid naive all-pairs scaling, the environment is partitioned into **sub-regi
 ---
 
 ## Results / demo images
+<div style="max-width: 700px; margin: 0 auto;">
 {% include figure.liquid
   path="assets/img/architecture.png"
   class="img-fluid rounded z-depth-1"
   caption="Architecture: cars publish/subscribe via an EMQX MQTT cluster; monitoring server maintains digital twins and sends avoidance commands."
 %}
+</div>
+
 
 {% include figure.liquid
   path="assets/img/digital-twin-demo.png"
