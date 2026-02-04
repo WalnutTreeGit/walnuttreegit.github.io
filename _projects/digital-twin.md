@@ -41,7 +41,7 @@ To avoid naive all-pairs scaling, the environment is partitioned into **sub-regi
 - Cars publish **registration/spec data with QoS 2** (reliability).   
 - Cars publish **motion updates with QoS 0** (latency), with an update cap of **60 Hz per car** to reduce broker load.   
 - Server commands use **QoS 2** since instructions are safety-critical.   
-- Cars can be simulated concurrently using **multiprocessing**, and the car simulation is containerized with **Docker**. :contentReference[oaicite:13]{index=13}  
+- Cars can be simulated concurrently using **multiprocessing**, and the car simulation is containerized with **Docker**. 
 
 ---
 
