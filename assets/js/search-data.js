@@ -434,6 +434,11 @@ ninja.data = [{
           description: "Real-time game logic on 8-bit hardware with 2KB RAM constraints.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tetris/";
+            },},{id: "projects-uwb-radar-sensing-movement-tracking-amp-breath-monitoring",
+          title: 'UWB Radar Sensing — Movement Tracking &amp;amp; Breath Monitoring',
+          description: "IR-UWB radar signal processing for motion tracking (MATLAB) and non-contact respiration monitoring (Python).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/uwb-radar-sensing/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
