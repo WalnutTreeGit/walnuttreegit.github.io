@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Dragster Robot (LDR Start Gate + PID Line Tracking + Finish Stop)
 description: Arduino-based embedded control for a 10 m autonomous dragster: light-gate start, 5× IR sensing, PID steering, ICStation motor shield, and brake-on-finish logic.
 img: assets/img/dragster.png
-importance: 2
+importance: 7
 category: work
 ---
 
