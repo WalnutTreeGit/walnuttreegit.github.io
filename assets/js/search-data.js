@@ -414,9 +414,9 @@ ninja.data = [{
           description: "C++ “physical car” simulation + MQTT pub/sub to maintain server-side digital twins and issue collision-avoidance commands in real time.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/digital-twin/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-autonomous-dragster-robot",
+          title: 'Autonomous Dragster Robot',
+          description: "Arduino-based embedded control for a 10 m autonomous dragster: light-gate start, 5x IR sensing, PID steering, ICSta",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dragster/";
             },},{id: "projects-real-time-facial-recognition",
