@@ -414,6 +414,11 @@ ninja.data = [{
           description: "C++ “physical car” simulation + MQTT pub/sub to maintain server-side digital twins and issue collision-avoidance commands in real time.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/digital-twin/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dragster/";
             },},{id: "projects-real-time-facial-recognition",
           title: 'Real-Time Facial Recognition',
           description: "A closed-set facial recognition pipeline using YOLOv8 and Transfer Learning.",
