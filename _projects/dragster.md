@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous Dragster Robot
-description: Arduino-based embedded control for a 10 m autonomous dragster: light-gate start, 5× IR sensing, PID steering, ICStation motor shield, and brake-on-finish logic.
+description: "Arduino-based embedded control for a 10 m autonomous dragster: light-gate start, 5x IR sensing, PID steering, ICSta"
 img: assets/img/dragster.png
 importance: 7
 category: work
