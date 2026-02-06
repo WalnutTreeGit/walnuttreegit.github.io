@@ -35,7 +35,7 @@ The finish marker is detected when **all five sensors** simultaneously detect th
 ---
 
 ## Demo video
-<div style="max-width: 420px; margin: 0 auto;">
+<div style="max-width: 360px; margin: 0 auto;">
   <video controls playsinline preload="metadata"
          style="width:100%; height:auto; aspect-ratio: 9 / 16; display:block; border-radius: 12px;">
     <source src="{{ '/assets/video/dragster-run.mp4' | relative_url }}" type="video/mp4">
