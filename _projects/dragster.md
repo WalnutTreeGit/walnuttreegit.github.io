@@ -13,7 +13,7 @@ Built an autonomous dragster to complete a **10 m sprint** at high speed and **s
 ---
 
 ## Hardware / sensing / actuation
-- **Start gate (mandatory):** LDR on `A0`. The program waits until the light threshold is reached before starting.
+- **Start gate:** The car starts once a light is turned on, read by an LDR on `A0` that checks the light measurement  threshold.
 - **Tracking sensors:** five analog IR sensors (`A1..A5`) thresholded to detect track contrast.
 - **Motor driver:** **ICStation motor shield** providing H-bridge motor drive. Arduino PWM commands the shield; the shield supplies motor current.
 - **Actuation:** differential PWM speed control plus braking control to stop at the finish.
