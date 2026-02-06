@@ -424,8 +424,8 @@ ninja.data = [{
           description: "Solver-backed learning of k-CNF formulas mixing Boolean literals and linear real arithmetic halfspaces (PySMT).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/smt/";
-            },},{id: "projects-real-time-train-crowding-forecasting-sncf-transilien",
-          title: 'Real-Time Train Crowding Forecasting (SNCF-Transilien)',
+            },},{id: "projects-real-time-train-crowding-forecasting",
+          title: 'Real-Time Train Crowding Forecasting',
           description: "Tabular ML forecasting of one-station-ahead train occupancy using contextual + lag features from infrared door sensors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sncf-ml/";
