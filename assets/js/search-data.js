@@ -424,6 +424,11 @@ ninja.data = [{
           description: "A closed-set facial recognition pipeline using YOLOv8 and Transfer Learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/facial_recognition/";
+            },},{id: "projects-ml-for-mutation-testing",
+          title: 'ML for Mutation Testing',
+          description: "Clustering mutants using structural code features (K-Means / DBSCAN / HDBSCAN) and verifying equivalence with FSM-derived test suites (DS &amp; W).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mutation/";
             },},{id: "projects-smt-lra-constraint-learning",
           title: 'SMT(LRA) Constraint Learning',
           description: "Solver-backed learning of k-CNF formulas mixing Boolean literals and linear real arithmetic halfspaces (PySMT).",
