@@ -9,6 +9,8 @@ nav_order: 2
 
 <div class="publications">
 
+**NOTE:** The arXiv version of Certainty-Guided Reasoning is currently outdated; an updated version will be posted soon. Please use the PDF link for the latest version.
+
 {% bibliography %}
 
 </div>
