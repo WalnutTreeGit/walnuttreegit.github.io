@@ -3,7 +3,7 @@ layout: page
 title: Sampling-Based Motion Planning (RRT / RRT*)
 description: Implemented and evaluated RRT vs RRT* under different iteration budgets and step sizes, and improved narrow-corridor planning with obstacle-biased sampling (OBRRT-style).
 img: assets/img/rrt-star-demo.png
-importance: 4
+importance: 2
 category: work
 ---
 
