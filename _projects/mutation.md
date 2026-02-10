@@ -3,7 +3,7 @@ layout: page
 title: ML for Mutation Testing
 description: Clustering mutants using structural code features (K-Means / DBSCAN / HDBSCAN) and verifying equivalence with FSM-derived test suites (DS & W).
 img: assets/img/mutation-results.png
-importance: 4
+importance: 6
 category: work
 ---
 
