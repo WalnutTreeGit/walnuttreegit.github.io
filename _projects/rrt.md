@@ -13,11 +13,13 @@ Implemented and benchmarked **RRT** and **RRT\*** for 2D motion planning, then a
 ---
 
 ## RRT* demo
+<div style="max-width: 550px; margin: 0 auto;">
 {% include figure.liquid
   path="assets/img/rrt-star-demo.png"
   class="img-fluid rounded z-depth-1"
   caption="RRT* run example: explored tree (green) and final path (red) through a cluttered 2D workspace."
 %}
+</div>
 
 ---
 
@@ -26,12 +28,15 @@ Implemented and benchmarked **RRT** and **RRT\*** for 2D motion planning, then a
 - **Path quality:** RRT\* produced shorter paths than RRT in the benchmark environment.
 - **Computation time:** RRT\* was substantially slower due to near-neighbor search and rewiring.
 
+<div style="max-width: 550px; margin: 0 auto;">
 {% include figure.liquid
-  path="assets/img/rrt-star-demo.png"
+  path="assets/img/rrt-vs-rrtstar.png"
   class="img-fluid rounded z-depth-1"
-  style="max-width: 400px; margin: 0 auto; display: block;"
-  caption="RRT* run example: explored tree (green) and final path (red) through a cluttered 2D workspace."
+  style="max-width: 400px; margin: 0 auto; display: block;"  
+  caption="RRT vs RRT*: RRT* improves average path length but increases computation time."
 %}
+</div>
+ 
 
 ---
 
