@@ -27,9 +27,10 @@ Implemented and benchmarked **RRT** and **RRT\*** for 2D motion planning, then a
 - **Computation time:** RRT\* was substantially slower due to near-neighbor search and rewiring.
 
 {% include figure.liquid
-  path="assets/img/rrt-vs-rrtstar.png"
+  path="assets/img/rrt-star-demo.png"
   class="img-fluid rounded z-depth-1"
-  caption="RRT vs RRT*: RRT* improves average path length but increases computation time."
+  style="max-width: 400px; margin: 0 auto; display: block;"
+  caption="RRT* run example: explored tree (green) and final path (red) through a cluttered 2D workspace."
 %}
 
 ---
