@@ -3,7 +3,7 @@ layout: page
 title: SMT(LRA) Constraint Learning
 description: Solver-backed learning of k-CNF formulas mixing Boolean literals and linear real arithmetic halfspaces (PySMT).
 img: assets/img/smt-front.png
-importance: 4
+importance: 7
 category: work
 ---
 
