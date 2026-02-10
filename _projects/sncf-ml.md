@@ -3,7 +3,7 @@ layout: page
 title: SNCF Train Crowding Forecasting
 description: Tabular ML forecasting of one-station-ahead train occupancy using contextual + lag features from infrared door sensors.
 img: assets/img/sncf-results.png
-importance: 3
+importance: 7
 category: work
 ---
 
