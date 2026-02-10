@@ -11,7 +11,7 @@ profile:
     <p>Paris, France</p>
 
 news: true  # Keeps your awards/papers visible
-selected_papers: true # Shows your ICML submissions from .bib
+selected_papers: false # Shows your ICML submissions from .bib
 ---
 
 Hi! I’m João Paulo. I hold an MSc in **Computer Science** (Networks) from **Institut Polytechnique de Paris** and a BSc in **Electrical and Computer Engineering** from the **Polytechnic Institute of Porto.**
