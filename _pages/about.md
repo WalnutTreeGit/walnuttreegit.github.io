@@ -14,7 +14,7 @@ news: true  # Keeps your awards/papers visible
 selected_papers: true # Shows your ICML submissions from .bib
 ---
 
-Hi! I'm João Paulo, a DPhil applicant for the **Autonomous Intelligent Machines and Systems (AIMS) CDT** at the University of Oxford for the 2026 intake. I currently hold an MSc in **Computer Science for Networks** from **Institut Polytechnique de Paris**  and a BSc in **Electrical and Computer Engineering** from the **Polytechnic Institute of Porto**.
+Hi! I’m João Paulo. I hold an MSc in **Computer Science** (Networks) from **Institut Polytechnique de Paris** and a BSc in **Electrical and Computer Engineering** from the **Polytechnic Institute of Porto.**
 
 My research interests lie in **Embodied Intelligence** and the emergence of Vision–Language–Action (VLA) models. In particular, I aim to leverage Large Multimodal Models (LMMs) not only for planning, but as structured label generators that synthesize formal safety constraints from deployment experience, bridging the gap between high-level semantic reasoning and low-level control guarantees.
 
