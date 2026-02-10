@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-my-industrial-research-project-on-lora-networks-was-awarded-the-cassiopée-award-for-best-student-project-2024-at-institut-polytechnique-de-paris-our-implementation-of-cognitive-radio-was-selected-as-the-top-project-from-a-cohort-of-over-60-teams-spanning-both-master-s-and-engineering-students",
+          title: 'My industrial research project on LoRa networks was awarded the Cassiopée Award for...',
           description: "",
           section: "News",},{id: "news-admis-mention-très-bien-highest-honors-i-have-officially-completed-my-msc-in-computer-science-for-networks-at-institut-polytechnique-de-paris-with-the-highest-honors",
           title: 'Admis Mention Très Bien (Highest Honors). I have officially completed my MSc in...',
