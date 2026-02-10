@@ -398,13 +398,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-admis-mention-très-bien-highest-honors-i-have-officially-completed-my-msc-in-computer-science-for-networks-at-institut-polytechnique-de-paris-with-the-highest-honors",
+          title: 'Admis Mention Très Bien (Highest Honors). I have officially completed my MSc in...',
           description: "",
           section: "News",},{id: "news-i-am-honored-to-receive-the-outstanding-innovation-award-from-the-nokia-bell-labs-global-student-program-2025-out-of-a-global-pool-of-interns-i-was-selected-as-a-finalist-in-the-ai-category-and-became-the-first-france-based-intern-to-receive-this-distinction-this-award-recognizes-my-research-on-certainty-guided-reasoning-a-framework-for-dynamic-thinking-budgets-in-llms",
           title: 'I am honored to receive the Outstanding Innovation Award from the Nokia Bell...',
