@@ -10,6 +10,10 @@ profile:
   address: >
     <p>Paris, France</p>
 
+announcements:
+  enabled: true
+  limit: 5
+
 news: true  # Keeps your awards/papers visible
 selected_papers: false # Shows your ICML submissions from .bib
 ---
