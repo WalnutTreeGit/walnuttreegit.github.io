@@ -433,8 +433,8 @@ ninja.data = [{
           description: "Clustering mutants using structural code features (K-Means / DBSCAN / HDBSCAN) and verifying equivalence with FSM-derived test suites (DS &amp; W).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mutation/";
-            },},{id: "projects-ntc-temperature-sensing-analog-adc-chain-eleapl",
-          title: 'NTC Temperature Sensing + Analog ADC Chain (ELEAPL)',
+            },},{id: "projects-ntc-temperature-sensing",
+          title: 'NTC Temperature Sensing',
           description: "End-to-end analog front-end for an NTC temperature sensor. Wheatstone bridge, instrumentation amplifier, comparator with hysteresis, 0–5 V conditioning, and Arduino LCD readout.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ntc/";
