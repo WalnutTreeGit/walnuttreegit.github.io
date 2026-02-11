@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NTC Temperature Sensing + Analog ADC Chain (ELEAPL)
-description: End-to-end analog front-end for an NTC temperature sensor: Wheatstone bridge, instrumentation amplifier, comparator with hysteresis, 0–5 V conditioning, and Arduino LCD readout.
+description: End-to-end analog front-end for an NTC temperature sensor. Wheatstone bridge, instrumentation amplifier, comparator with hysteresis, 0–5 V conditioning, and Arduino LCD readout.
 img: assets/img/eleapl-adc.png
 importance: 4
 category: work
