@@ -433,6 +433,11 @@ ninja.data = [{
           description: "Clustering mutants using structural code features (K-Means / DBSCAN / HDBSCAN) and verifying equivalence with FSM-derived test suites (DS &amp; W).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mutation/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ntc/";
             },},{id: "projects-sampling-based-motion-planning-rrt-rrt",
           title: 'Sampling-Based Motion Planning (RRT / RRT*)',
           description: "Implemented and evaluated RRT vs RRT* under different iteration budgets and step sizes, and improved narrow-corridor planning with obstacle-biased sampling (OBRRT-style).",
