@@ -12,8 +12,6 @@ Implemented two IR-UWB radar processing pipelines:
 1) **Movement tracking** via slow-time clutter suppression + envelope extraction and range–time visualization.
 2) **Breathing monitoring** via Hilbert-envelope extraction and variance-based range-bin selection, with time/frequency checks.
 
-(Work summarized in course deck.)
-
 ---
 
 ## 1) Movement tracking (MATLAB)
