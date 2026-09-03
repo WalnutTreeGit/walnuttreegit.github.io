@@ -428,6 +428,11 @@ ninja.data = [{
           description: "A closed-set facial recognition pipeline using YOLOv8 and Transfer Learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/facial_recognition/";
+            },},{id: "projects-learning-to-walk-unitree-go2",
+          title: 'Learning to Walk (Unitree Go2)',
+          description: "A one-week team project at the Imperial College Robotics Summer School 2026 - training RL locomotion policies for the Unitree Go2 in massively parallel simulation and deploying them zero-shot onto the real robot.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/imperial-go2/";
             },},{id: "projects-ml-for-mutation-testing",
           title: 'ML for Mutation Testing',
           description: "Clustering mutants using structural code features (K-Means / DBSCAN / HDBSCAN) and verifying equivalence with FSM-derived test suites (DS &amp; W).",
