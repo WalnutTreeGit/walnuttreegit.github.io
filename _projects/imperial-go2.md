@@ -87,7 +87,7 @@ The default trot policy transferred to the real Go2 **zero-shot** - no fine-tuni
 
 {% include video.liquid
   path="assets/video//walking1.mp4"
-  class="img-fluid rounded z-depth-1"
+  class="img-fluid rounded z-depth-1 d-block mx-auto"
   controls=true
   autoplay=true
   loop=true
@@ -102,7 +102,7 @@ For the bipedal stance we reshaped the reward to get the robot to rear up and ba
 
 {% include video.liquid
   path="assets/video/back_legs.mp4"
-  class="img-fluid rounded z-depth-1"
+  class="img-fluid rounded z-depth-1 d-block mx-auto"
   controls=true
   autoplay=true
   loop=true
@@ -122,7 +122,7 @@ We reused the framework to push for harder behaviours by reshaping the reward:
 
 {% include video.liquid
   path="assets/video/handstand.mp4"
-  class="img-fluid rounded z-depth-1"
+  class="img-fluid rounded z-depth-1 d-block mx-auto"
   controls=true
   autoplay=true
   loop=true
