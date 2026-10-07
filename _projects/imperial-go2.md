@@ -96,7 +96,22 @@ The default trot policy transferred to the real Go2 **zero-shot** - no fine-tuni
 <div class="caption">The policy trained entirely in simulation, walking on the real robot.</div>
 
 ---
+### Standing on the back legs
 
+For the bipedal stance we reshaped the reward to get the robot to rear up and balance on its two hind legs. This is our best attempt in simulation. The policy learned to lift the front legs and get the body upright, but it could not hold the pose robustly, so we did not take it to the real robot.
+
+{% include video.liquid
+  path="assets/video/back_legs.mp4"
+  class="img-fluid rounded z-depth-1"
+  controls=true
+  autoplay=true
+  loop=true
+  muted=true
+%}
+<div class="caption">Best bipedal attempt in simulation. The robot gets up onto its hind legs but does not stay balanced for long.</div>
+
+
+---
 ## Beyond walking: tripod, bipedal, handstand
 
 We reused the framework to push for harder behaviours by reshaping the reward:
