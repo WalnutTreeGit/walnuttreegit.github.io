@@ -105,11 +105,15 @@ We reused the framework to push for harder behaviours by reshaping the reward:
 - **Bipedal stance** - "almost". The best simulation attempt got the robot up but not robustly.
 - **Handstand** - trained in simulation and attempted on the real robot. Two failure modes were instructive: reward terms that quietly conflict so total reward trends the wrong way, and separate runs that collapse outright. When objectives fight each other, it is a good thing the diagnosis happens in simulation.
 
-{% include figure.liquid
-  path="assets/img/go2-handstand.jpg"
+{% include video.liquid
+  path="assets/video/handstand.mp4"
   class="img-fluid rounded z-depth-1"
-  caption="Handstand policy in simulation (left) and the real-robot attempt (right). New behaviours need shaped rewards, more compute and longer training than a plain walk."
+  controls=true
+  autoplay=true
+  loop=true
+  muted=true
 %}
+<div class="caption">Handstand policy attempt in simulation. New behaviours need shaped rewards, more compute and longer training than a plain walk.</div>
 
 ---
 
