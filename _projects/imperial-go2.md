@@ -86,7 +86,7 @@ PPO in Isaac Gym Preview 4 (PyTorch 1.13 / CUDA 11.6), packaged in an Apptainer 
 The default trot policy transferred to the real Go2 **zero-shot** - no fine-tuning on hardware - and ran onboard the robot's Jetson via an LCM control bridge.
 
 {% include video.liquid
-  path="assets/video/go2-walk-real.mp4"
+  path="assets/video//walking1.mp4"
   class="img-fluid rounded z-depth-1"
   controls=true
   autoplay=true
